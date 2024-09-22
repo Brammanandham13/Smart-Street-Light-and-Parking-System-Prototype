@@ -1,0 +1,22 @@
+First, we obtain the data from the ultrasonic sensor (the trigger pin,
+D0 in the Nodemcu and pin 11, in the Arduino, will generate the
+signal, which the echo pin, D1, in the Nodemcu and pin 12, in the
+Arduino, will receive).Receiving Signal isthe wavelength between the
+signal sendingand Receiving by using distance, wavelength relation
+we have to calculate the Distance.
+
+• The distance is transferred to the Arduino IDE, where we can send data
+to the processing software using the serial port COM and to the
+ThingsBoard/Blynk IoT App via the WiFi Module.
+
+• I construct the new gadget first in ThingsBoard. I can acquire the
+credentials there. The Add New Widget Option is then used to create the
+New Dashboard. The distance between the object and the sensor is
+visualised using a digital gauge and a time series line chart. I can access
+the Blynk IoT App after creating the login for the Blynk Dashboard and
+creating my authentication token from the token. I built widgets like a
+gauge, a clock, and a simple live timeline inside the app.
+
+• For the purpose of storing the data needed to perform the energy audit in
+our prototype, we are creating a new channel and field in ThingSpeak as
+well as a widget to display the data.
