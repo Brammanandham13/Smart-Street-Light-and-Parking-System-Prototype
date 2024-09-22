@@ -1,0 +1,32 @@
+This project uses an ultrasonic pulse that is reflected by an object to
+determine how far it is away and how many LEDs will glow as a
+result. We need a smart street light system because there is
+currently too much power loss in street lights to serve this purpose.
+We offer one suggestion for a more effective method of energy
+conservation. We also think about how effective our prototype is.
+Today, smart parking systems are also required. In our project, we
+provide an IoT-based solution by indicating using LEDs,
+visualisation tools, labels, etc., for the safety of the vehicle's driver
+and the vehicle. We employ various approaches to demonstrate both
+modern-day problems in the same prototype. versus all other
+sensors Because the driver cannot see the distance from the rear of
+the car between the nearby objects and the car body, ultrasonic
+sensor measurement is safe and assists the equipment while a car is
+parking or reversing.
+• They provide instructions on how to determine distances between a
+few millimetres and a few metres in the journal article "A Distance
+Measurement Ultrasonic Sensor for Automotive Use." They stated
+that "Smart cars" would use these applications. With that concept,
+we're attempting to increase measurement accuracy while
+simultaneously creating a tool that allows users to see distance.
+
+
+For the purpose of implementing the smart street light application, we
+consulted the article "Designing LED street lighting to be as efficient as
+possible." In this article, the authors discussed ways to save energy by
+optimising LED lamps. Using these ideas, we tried to implement the
+smart street light system by combining them with a feature that would
+reduce the intensity of the LEDs' glow if no vehicles were detected at the
+time. In our prototype, we manually visualise the energy savings. We
+must store the data for the Energy Audit, so we are doing so in the IoT
+cloud.
